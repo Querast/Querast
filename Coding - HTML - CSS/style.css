@@ -1,0 +1,32 @@
+#Pertama {
+  color: red;
+  text-align: center;
+}
+
+.content {
+  border: 2px solid black;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  background-image: url("gambar.jpg");
+  height: 500px;
+  background-size: cover;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.kedua {
+  border: 2px solid black;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightgreen;
+}
+
+.ketiga {
+  border: 2px solid black;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: lightcoral;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--pakai shift 1 kemudian enter untuk shortcut awal-->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PTI B</title>
+  </head>
+  <body text = "green"><center>
+    <p><b>Haiii</b></p>
+    <!-- <b> untuk menebalkan-->
+    <br /><!-- <br /> untuk enter-->
+    <hr />
+    <!-- <hr /> untuk memberi garis horizontal-->
+    <p><i>Haiii</i></p>
+    <!-- <i> untuk memiringkan-->
+    <hr />
+    <p><u>Haiii</u></p>
+    <!-- <u> untuk menggaris bawahi-->
+    <hr />
+    <h1>Hello World</h1>
+    <h2>Hello World</h2>
+    <h3>Hello World</h3>
+    <h4>Hello World</h4>
+    <h5>Hello World</h5>
+    <h6>Hello World</h6>
+
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=p1WoUDEvEP9whH1w">LINK GACOR KANG!!</a><br />
+    <!-- <a href="link"> untuk membuat link-->
+
+    <br /><img src="Gambar.jpg" width="10%" alt="Gambar GACOR KANG!!" />
+    <!-- alt untuk memberi keterangan gambar-->
+
+    <p>Ini adalah contoh superscript: 10<sup>2</sup></p>
+    <!-- <sup> untuk superscript-->
+    <p>Ini adalah contoh subscript: H<sub>2</sub>O</p>
+    <!-- <sub> untuk subscript-->
+
+    <p style="color: blue; font-size: 15px; font-family: Arial;">
+      Haiii
+    </p>
+    <!-- style untuk memberi style pada teks-->
+
+    <button type="button" onclick="window.location.href='https://youtu.be/dQw4w9WgXcQ?si=p1WoUDEvEP9whH1w'">Klik Saya</button><br />
+
+    <br />
+    <input type="text" value="1. " oninput="if(!this.value.startsWith('1. ')) this.value = '1. '">
+    <input type="text" value="2. " oninput="if(!this.value.startsWith('2. ')) this.value = '2. '">
+    <input type="text" value="3. " oninput="if(!this.value.startsWith('3. ')) this.value = '3. '">
+    <br />
+    <br />
+    <input type="radio" name="option" value="option1"> Pilihan 1<br>
+    <input type="radio" name="option" value="option2"> Pilihan 2<br>
+    <input type="radio" name="option" value="option3"> Pilihan 3<br>
+    <br />
+    <select>
+      <option value="option1">Pilihan 1</option>
+      <option value="option2">Pilihan 2</option>
+      <option value="option3">Pilihan 3</option>
+    </select>
+
+    <br />
+    <div style="text-align: left;">
+      <ol>
+      <li>Nomor 1</li>
+      <li>Nomor 2</li>
+      <li>Nomor 3</li>
+      </ol>
+      <ul>
+      <li>Titik 1</li>
+      <li>Titik 2</li>
+      <li>Titik 3</li>
+      </ul>
+    </div>
+
+    <table border="1", style="color: teal">
+      <tr>
+        <th colspan="7">Tabel Data Mahasiswa</th><!--horizontal-->
+      </tr>
+      <tr>
+        <th rowspan="5">Data Mahasiswa</th><!--vertikal-->
+      </tr>
+      <tr>
+        <th>No</th>
+        <th>Nama</th>
+        <th>NIM</th>
+        <th>Prodi</th>
+        <th colspan="10">Fakultas</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Alice</td>
+        <td>67200011</td>
+        <td>Teknik Informatika</td>
+        <td>Fakultas Teknologi Informasi</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Bob</td>
+        <td>68200012</td>
+        <td>Sistem Informasi</td>
+        <td>Fakultas Teknologi Informasi</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Charlie</td>
+        <td colspan="5">Teknik Informatika</td>
+    </table>
+    <br />
+
+    <!-- Bagian tabel dan inputan -->
+
+    <form action="coba.html">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname"/><br />
+
+      <br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname"/><br />
+
+      <br />
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" required/><br />
+
+      <br />
+      <label for="time">waktu</label><br />
+      <input type="time"/><br />
+
+      <br />
+      <label for="date">tanggal</label><br />
+      <input type="date"/><br />
+
+      <br />
+      <label for="jk">Jenis Kelamin:</label><br />
+      <input type="radio" id="laki" name="jk" value="laki-laki" checked>laki-laki<br />
+      <input type="radio" id="perempuan" name="jk" value="perempuan"> perempuan <br />
+
+      <br />
+      <label for="fak">Fakultas:</label><br />
+      <select id="fak" name="fak">
+        <option value="fit">Fakultas Ilmu Terapan</option>
+        <option value="fik">Fakultas Industri Kreatif</option>
+        <option value="fte">Fakultas Teknik Elektro</option>
+        <option value="ftif">Fakultas Teknologi Informasi dan Sains</option>
+      </select><br />
+
+      <br />
+      <label for="color">Warna</label><br />
+      <input type="color"/><br />
+
+      <br />
+      <label for="Mk">Makanan kesukaan:</label><br />
+      <input type="checkbox"> Mie ayam<br />
+      <input type="checkbox"> Bakso<br />
+      <input type="checkbox"> Batagor<br />
+      <input type="checkbox"> Siomay<br />
+
+      <br />
+      <label for="url">Link</label><br />
+      <input type="url"/><br />
+
+      <br />
+      <label for="image">Gambar</label><br />
+      <input type="image" name="" src="Gambar.jpg" width="50" id="image" /><br />
+
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+  </body>
+</html>
